@@ -346,7 +346,7 @@ export const OFFICIAL_ENTRIES: RegistryEntry[] = [
     name: "desearch",
     title: "Desearch",
     description:
-      "AI search, X search and web search for AI agents, plus page extraction and X data tools. Bring your own Desearch API key. Local stdio server `desearch-mcp-server` (MIT) through `npx`, with 15 tools; it needs Node.js 20.18.1 or later and a Desearch API key from console.desearch.ai/api-keys, set as `DESEARCH_API_KEY`.",
+      "AI search, X search and web search for AI agents, plus page extraction, X data tools and People Search. Bring your own Desearch API key. Local stdio server `desearch-mcp-server` (MIT) through `npx`, with 22 tools: 20 read-only, and `people-search` and `people-search-control`, which start or control paid People Search jobs. It needs Node.js 20.18.1 or later and a Desearch API key from console.desearch.ai/api-keys, set as `DESEARCH_API_KEY`.",
     icon: "desearch.png",
     homepage: "https://github.com/Desearch-ai/mcp-desearch",
     configuration: {
